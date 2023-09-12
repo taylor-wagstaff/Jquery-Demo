@@ -10,7 +10,89 @@ body {
 
 }
 
+#game-container {
 
+  text-align: center;
+
+  margin-top: 20px;
+
+}
+
+
+
+#shape {
+
+  width: 100px;
+
+  height: 100px;
+
+  background-color: #060b52b9;
+
+  position: absolute;
+
+  border-radius: 50%;
+
+  cursor: pointer;
+
+}
+
+
+
+#score, #timer {
+
+  font-size: 24px;
+
+  margin-bottom: 10px;
+
+}
+
+
+
+#score-value {
+
+  font-weight: bold;
+
+  color: #090438;
+
+}
+
+
+
+#start-button, #stop-button {
+
+  margin-top: 20px;
+
+  padding: 10px 20px;
+
+  font-size: 18px;
+
+}
+
+
+
+.slider-container{
+
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.slider{
+
+  display: flex;
+  transition: transform 0.2s ease;
+
+}
+
+.slide {
+
+  width: 100%
+}
+
+.slide img {
+
+  width: 700px;
+  height: 350px;
+}
 
 h1 {
 
