@@ -10,6 +10,45 @@ body {
 
 }
 
+
+.Countdown{
+
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  gap:1rem;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  margin: 1rem;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: min-content;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+
+.countdown-timer{
+
+  background-color:white;
+  color: black;
+  
+  padding: 2rem;
+  border-radius: 50%;
+  width: min-content;
+  border: 2px solid black;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.countdown-label {
+  
+  color: black;
+}
+
+
+
+
 #game-container {
 
   text-align: center;
